@@ -55,8 +55,8 @@ function App() {
           <div className='nav'>
     <p>MIMI</p>
     <div className='social'>
-      <FaTelegramPlane className='social_icon'/>
-      <AiOutlineTwitter className='social_icon'/>
+      <a href="https://t.me/mimotoken" target="_blank" rel="norefferer"><FaTelegramPlane className='social_icon'/></a>
+      <a href="https://twitter.com/mimotoken" target="_blank" rel="norefferer"> <AiOutlineTwitter className='social_icon'/></a>
     </div>
       </div>
       
