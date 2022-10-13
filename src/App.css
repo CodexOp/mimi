@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'MyWebFont';
-  src:  url('pixel.TTF');
+  src:  url('Pixeboy.ttf');
 }
 
 
@@ -16,9 +16,6 @@
   height: 87vh;
 }
 
-.attherate{
-  font-family: poppins !important;
-}
 
 .footer_outer{
   background: #f6f6f6 !important;
