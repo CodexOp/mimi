@@ -76,7 +76,7 @@ function App() {
     <div className='footer_outer'>
     <div className="footer">
       <p>MIMO © 2022</p>
-      <a href="mailto:info@mimotoken.com"><p>Info@mimotoken.com</p></a>
+      <a href="mailto:info@mimotoken.com"><p>Info<span className='attherate'>@</span>mimotoken.com</p></a>
      </div>
      </div>
     </>
