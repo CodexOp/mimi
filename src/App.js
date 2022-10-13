@@ -1,5 +1,5 @@
+/* eslint-disable */
 import './App.css';
-import m from "./m.png";
 import axios from "axios"
 import {AiOutlineLike} from "react-icons/ai"
 import {AiOutlineTwitter} from "react-icons/ai"
