@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: 'MyWebFont';
-  src:  url('typo_pixel.ttf') format('ttf'),
-        url('typo_pixel.ttf') format('ttf');
+  src:  url('pixel.TTF');
 }
 
 
@@ -35,7 +34,7 @@
 }
 
 body{
-  font-family: poppins;
+  font-family: MyWebFont;
 }
 
 .footer_outer{
