@@ -16,6 +16,29 @@
   height: 87vh;
 }
 
+.address{
+  display: block;
+  background: rgba(0,0,0, 0.2);
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+.address_small{
+  background: rgba(0,0,0, 0.2);
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 26px;
+  display: none;
+}
+
+.copy{
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+
+}
 
 .footer_outer{
   background: #f6f6f6 !important;
@@ -142,15 +165,58 @@ li::marker{
   }
 
   .App{
-    height: 80vh !important;
+    height: 100% !important;
+    min-height: 90vh;
 
   }
+
+  
+.address{
+  display: none;
+  background: rgba(0,0,0, 0.2);
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+.address_small{
+  background: rgba(0,0,0, 0.2);
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 26px;
+  display: block;
+}
 
   .feature{
     display: flex;
    flex-direction: column;
   
   }
+
+
+  .address{
+    background: rgba(0,0,0, 0.2);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 26px;
+  }
+
+  .copy{
+    margin-bottom: 20px;
+
+  }
+
+  .address {
+    display: none;
+   }
+
+
+   .contract{
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 26px;
+   }
 }
 @media (max-width:400px) {
   .App img{

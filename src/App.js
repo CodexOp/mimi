@@ -10,6 +10,7 @@ import {React, useState, useEffect} from 'react';
 function App() {
   
   const [allLiked, setallLiked] = useState();
+  const [display, setdisplay] = useState();
   const [liked, setLiked] = useState(true);
 
 
@@ -59,8 +60,17 @@ function App() {
       <a href="https://twitter.com/mimotoken" target="_blank" rel="norefferer"> <AiOutlineTwitter className='social_icon'/></a>
     </div>
       </div>
+
       
     <div className="App">
+
+    <div className='contract'>
+    <p className='address' onClick={() => {navigator.clipboard.writeText('0x3Ad3DD3C4Abf2a91678A5dd4D5CD61e252eB23B6'); setdisplay("Copied!")}}
+>0x3Ad3DD3C4Abf2a91678A5dd4D5CD61e252eB23B6 </p>
+<p className='address_small' onClick={() => {navigator.clipboard.writeText('0x3Ad3DD3C4Abf2a91678A5dd4D5CD61e252eB23B6'); setdisplay("Copied!")}}
+>0x3Ad3D...52eB23B6</p>
+<div className='copy'>{display}</div>
+    </div>
 
     <ol>
     <li><h2> 1.  No Utility</h2></li>
