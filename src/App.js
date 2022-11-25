@@ -6,6 +6,7 @@ import {AiOutlineTwitter} from "react-icons/ai"
 import {FaTelegramPlane} from "react-icons/fa"
 import {AiTwotoneLike} from "react-icons/ai"
 import {React, useState, useEffect} from 'react';
+import whitepaper from "./whitepaper.pdf"
 
 function App() {
   
@@ -56,6 +57,7 @@ function App() {
           <div className='nav'>
     <p>MIMO</p>
     <div className='social'>
+      <a href={whitepaper} target="_blank" rel="noreferrer"><button className="whitepaper" >Whitepaper</button></a>
       <a href="https://t.me/mimotoken" target="_blank" rel="norefferer"><FaTelegramPlane className='social_icon'/></a>
       <a href="https://twitter.com/mimotoken" target="_blank" rel="norefferer"> <AiOutlineTwitter className='social_icon'/></a>
     </div>
