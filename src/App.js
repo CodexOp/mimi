@@ -57,7 +57,6 @@ function App() {
           <div className='nav'>
     <p>MIMO</p>
     <div className='social'>
-      <a href={whitepaper} target="_blank" rel="noreferrer"><button className="whitepaper" >Whitepaper</button></a>
       <a href="https://t.me/mimotoken" target="_blank" rel="norefferer"><FaTelegramPlane className='social_icon'/></a>
       <a href="https://twitter.com/mimotoken" target="_blank" rel="norefferer"> <AiOutlineTwitter className='social_icon'/></a>
     </div>
@@ -65,12 +64,14 @@ function App() {
 
       
     <div className="App">
-
+    <button className="whitepaper" >Whitepaper To be announced on February 1st 2023</button>
+    &nbsp;
     <div className='contract'>
-    <p className='address' onClick={() => {navigator.clipboard.writeText('0x3Ad3DD3C4Abf2a91678A5dd4D5CD61e252eB23B6'); setdisplay("Copied!")}}
->0x3Ad3DD3C4Abf2a91678A5dd4D5CD61e252eB23B6 </p>
-<p className='address_small' onClick={() => {navigator.clipboard.writeText('0x3Ad3DD3C4Abf2a91678A5dd4D5CD61e252eB23B6'); setdisplay("Copied!")}}
->0x3Ad3D...52eB23B6</p>
+
+    <p className='address' onClick={() => {navigator.clipboard.writeText('0x97CaA0Dc2E93334C9611e9affd2C7c60440a37Db'); setdisplay("Copied!")}}
+>0x97CaA0Dc2E93334C9611e9affd2C7c60440a37Db </p>
+<p className='address_small' onClick={() => {navigator.clipboard.writeText('0x97CaA0Dc2E93334C9611e9affd2C7c60440a37Db'); setdisplay("Copied!")}}
+>0x97Ca...0a37Db</p>
 <div className='copy'>{display}</div>
     </div>
 

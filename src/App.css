@@ -228,6 +228,8 @@ li::marker{
     font-size: 26px;
    }
 }
+
+
 @media (max-width:400px) {
   .App img{
     width: 250px !important;
@@ -246,5 +248,5 @@ li::marker{
   .social_icon{
     font-size: 24px;
   }
-  
+
 }
