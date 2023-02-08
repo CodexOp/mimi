@@ -52,7 +52,7 @@ function App() {
     
     const [url, setUrl] = useState(whitepaper);
   
-    const handleWhitePapaerBtnClick = () => {
+    const handleWhitePaperBtnClick = () => {
       window.open(url, "_blank");
     };
     
@@ -64,7 +64,7 @@ function App() {
     <p>MIMO</p>
     <div className='social'>
       
-      <button onClick={handleWhitePapaerBtnClick} className="whitepaper">  
+      <button onClick={handleWhitePaperBtnClick} className="whitepaper">  
         Whitepaper
       </button>
       <a href="https://t.me/mimotoken" target="_blank" rel="norefferer"><FaTelegramPlane className='social_icon'/></a>
