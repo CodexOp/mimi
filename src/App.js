@@ -50,6 +50,12 @@ function App() {
 
 
     
+    const [url, setUrl] = useState(whitepaper);
+  
+    const handleWhitePapaerBtnClick = () => {
+      window.open(url, "_blank");
+    };
+    
 
   
   return (
@@ -57,6 +63,10 @@ function App() {
           <div className='nav'>
     <p>MIMO</p>
     <div className='social'>
+      
+      <button onClick={handleWhitePapaerBtnClick} className="whitepaper">  
+        Whitepaper
+      </button>
       <a href="https://t.me/mimotoken" target="_blank" rel="norefferer"><FaTelegramPlane className='social_icon'/></a>
       <a href="https://twitter.com/mimotoken" target="_blank" rel="norefferer"> <AiOutlineTwitter className='social_icon'/></a>
     </div>
@@ -64,7 +74,6 @@ function App() {
 
       
     <div className="App">
-    <button className="whitepaper" >Whitepaper To be announced on February 1st 2023</button>
     &nbsp;
     <div className='contract'>
 
